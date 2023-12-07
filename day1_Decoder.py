@@ -58,7 +58,7 @@ class Decoder2:
         return sum
 
 
-
-print(decoder('input1.txt'))
-decoder = Decoder2()
-print(decoder.decode('input1.txt'))
+if __name__=='__main__':
+    print(decoder('input1.txt'))
+    decoder = Decoder2()
+    print(decoder.decode('input1.txt'))
